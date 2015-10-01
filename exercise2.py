@@ -14,7 +14,7 @@ __license__ = "MIT License"
 
 
 def name_that_shape():
-    raw_input(name_that_shape)
+
     """
     For a given number of sides in a regular polygon, returns the shape name
 
@@ -29,4 +29,3 @@ def name_that_shape():
     print("Error")
 
 
-name_that_shape()
