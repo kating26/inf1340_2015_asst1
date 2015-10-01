@@ -14,4 +14,6 @@ __license__ = "MIT License"
 
 
 money = 1000.00
-print(money)
+stock = 340
+Lakshmi_remaining = money - stock
+print(Lakshmi_remaining)
