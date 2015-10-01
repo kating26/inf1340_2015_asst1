@@ -13,9 +13,12 @@ __copyright__ = "2015 Susan Sim"
 __license__ = "MIT License"
 
 
-money = 1000.00
-stock = 340
-Lakshmi_remaining = money - stock
+share = 2000
+price per share = 900.00
+stockbroker commission = .03
+#she sold all her shares
+price per share sold = 942.75
+
 print(Lakshmi_remaining)
 # input the number of shares
 
@@ -28,5 +31,3 @@ print(Lakshmi_remaining)
 # subtract 3% commission from the new price for the shares
 
 # calculate if Lakshmi made a profit
-money = 1000
-print(money)
