@@ -17,3 +17,16 @@ money = 1000.00
 stock = 340
 Lakshmi_remaining = money - stock
 print(Lakshmi_remaining)
+# input the number of shares
+
+# input initial price per share
+
+# subtract 3% commission to pay her stockbroker
+
+# calculate new price for shares
+
+# subtract 3% commission from the new price for the shares
+
+# calculate if Lakshmi made a profit
+money = 1000
+print(money)
