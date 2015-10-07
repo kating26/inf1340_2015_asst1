@@ -28,7 +28,19 @@ def name_that_shape():
     shape = raw_input("Let's name that shape")
     if shape =="3":
         print ('triangle')
-
-
+    if shape =="4":
+        print ('quadrilateral')
+    if shape =="5":
+        print ('pentagon')
+    if shape == "6":
+        print ('hexagon')
+    if shape == "7":
+        print ('heptagon')
+    if shape == "8":
+        print ('octagon')
+    if shape == "9":
+        print ('nonagon')
+    if shape == "10":
+        print ('decagon')
 
 
