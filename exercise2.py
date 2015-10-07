@@ -25,7 +25,10 @@ def name_that_shape():
     Errors:
 
     """
+    shape = raw_input("Let's name that shape")
+    if shape =="3":
+        print ('triangle')
 
-    print("Error")
+
 
 
