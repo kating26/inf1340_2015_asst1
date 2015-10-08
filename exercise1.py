@@ -17,25 +17,7 @@ bought = 900.00
 commission = .03
 share_sold = 942.75
 
-#first half of the question
-initial_purchase = stock * bought
-print (initial_purchase)
-initial_sales_commission = initial_purchase*commission
-print (initial_sales_commission)
-initial_amount_of_money = initial_sales_commission + initial_purchase
-print (initial_amount_of_money)
 
-#second half
-stock_sold = stock * share_sold
-print (stock_sold)
-final_sales_commission = stock_sold * commission
-print (final_sales_commission)
-overall_cost = initial_amount_of_money + final_sales_commission
-print (overall_cost)
-#Using the overall cost and comparing with stock sold to se it Lakshmi profited or lost money
-result = stock_sold - overall_cost
-print (result)
-#with -$25,065, Lakshmi lost money
 
 # Calculate initial total cost for shares by subtracting  subtract the stockbroker's 3% commission
 share_cost = stock * bought * commission
