@@ -16,18 +16,18 @@ __license__ = "MIT License"
 shape = raw_input("Enter the number of sides for your shape: ")
 
 def name_that_shape():
+
     """
     For a given number of sides in a regular polygon, returns the shape name
 
-    Inputs: Integers from 3 to 10. Users can enter other characters and numbers.
+    Inputs:
 
-    Expected Outputs: Name of each shape based on the number of sides input by user from 3 to 10.
-    3 - triangle, 4 - quadrilateral, 5 - pentagon, 6 - hexagon, 7 - heptagon, 8 - octagon,
-    9 - nonagon, 10 - decagon
+    Expected Outputs:
 
-    Errors: Any number outside the range of 3-10 (inclusive) as well as symbol and characters
-    will result in an "error".
+    Errors:
+
     """
+   
 
 if shape =="3":
     print ('You have a triangle.')
