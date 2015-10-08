@@ -46,14 +46,5 @@ def diagnose_car():
                         print ("Check to ensure the choke is opening and closing.")
                     if negative_fourth_degree == "Y":
                         print ("Get in for service")
-
-
-
-
-
-
-
-
-
 diagnose_car()
 
