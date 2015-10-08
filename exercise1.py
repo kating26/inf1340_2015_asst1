@@ -37,16 +37,17 @@ result = stock_sold - overall_cost
 print (result)
 #with -$25,065, Lakshmi lost money
 
-# Calculate initial total cost for shares by subtracting  subtract the stockbroker's 3% commission
+# Calculates initial total cost for shares plus the stockbroker's 3% commission
 share_cost = stock * bought * commission
 initial_total = stock * bought + share_cost
 print("Lakshmi's initial stock price was ""%.2f" % initial_total)
 
+# Calculates the price Lakshmi sold the stock minus the stockbroker's 3% commission
 final_price_sold = stock * share_sold * commission
 final_total = stock * share_sold - final_price_sold
 print ("Lakshmi's final stock price 2 weeks later was ""%.2f" % final_total)
 
-# Calculate if Lakshmi had a profit (positive value) or loss (negative value)
+# Calculate if Lakshmi had a profit (positive value) or loss (negative value). She lost $25065.
 
 net_value = final_total - initial_total
 print ("The overall difference between her purchase and sell prices is ""%0.2f" % net_value)
