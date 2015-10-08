@@ -14,10 +14,27 @@ __license__ = "MIT License"
 
 
 def diagnose_car():
+#Start on the left side
     troubleshoot = raw_input("Is the car silent when you turn the key?")
+    if troubleshoot == " yes": #Added a space for aesthetics
+        positive_first_degree = raw_input("Are the battery terminals recorded?")
+        print (positive_first_degree)
+        if positive_first_degree == " yes": #I don't understand why I'm getting a double yes
+            print ("Clean terminals and try starting again.")
+        if positive_first_degree == " no": #there is another no
+            print ("Replace cables and try again.")
+#Start on the right side
+    if troubleshoot == " no":
+        negative_first_degree = raw_input("Does the car make a clicking noise?")
+        print(negative_first_degree)
+        if negative_first_degree == " yes":
+            print ("Replace the battery.")
+        if negative_first_degree == " no": #This is a bit tricky
 
 
-    print("The battery cables may be damaged. Replace cables and try again.")
+
+
+
 
 
 diagnose_car()
