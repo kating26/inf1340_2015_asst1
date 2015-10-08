@@ -17,10 +17,10 @@ bought = 900.00
 commission = .03
 share_sold = 942.75
 
-
 # Calculate initial total cost for shares by subtracting  subtract the stockbroker's 3% commission
+
 share_cost = stock * bought * commission
-initial_total = stock * bought - share_cost
+initial_total = stock * bought + share_cost
 print("Lakshmi's initial stock price was $""%.2f" % initial_total)
 
 final_price_sold = stock * share_sold * commission
