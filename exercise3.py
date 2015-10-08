@@ -37,6 +37,10 @@ def diagnose_car():
             if negative_second_degree == "N":
                 negative_third_degree = raw_input("Does the engine start and then die?")
                 print (negative_third_degree)
+                if negative_third_degree == "Y":
+                    negative_fourth_degree = raw_input("Does your car have fuel injection?")
+
+
 
 
 
