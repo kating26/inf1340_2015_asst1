@@ -15,20 +15,12 @@ __license__ = "MIT License"
 
 
 def name_that_shape():
-
-    """
-    For a given number of sides in a regular polygon, returns the shape name
-
-    Inputs:
-
-    Expected Outputs:
-
-    Errors:
-
-    """
     shape = raw_input("Let's name that shape")
     if shape =="3":
         print ('triangle')
+    if shape =="4":
+        print ('quadrilateral')
+name_that_shape()
 
 
 

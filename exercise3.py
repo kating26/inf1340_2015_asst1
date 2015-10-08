@@ -14,19 +14,11 @@ __license__ = "MIT License"
 
 
 def diagnose_car():
-    """
-    Interactively queries the user with yes/no questions to identify a
-    possible issue with a car.
+    troubleshoot = raw_input("Is the car silent when you turn the key?")
 
-    Inputs:
-
-    Expected Outputs:
-
-    Errors:
-
-    """
 
     print("The battery cables may be damaged. Replace cables and try again.")
 
 
 diagnose_car()
+
