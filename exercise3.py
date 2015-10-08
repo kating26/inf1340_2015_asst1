@@ -18,24 +18,22 @@ def diagnose_car():
     troubleshoot = raw_input("Is the car silent when you turn the key (Y/N)? ")
     if troubleshoot == "Y": #Added a space for aesthetics
         positive_first_degree = raw_input("Are the battery terminals corroded (Y/N)? ")
-    if positive_first_degree == "Y": #Got rid of extra print line, removed extra "Y"
-        print ("Clean terminals and try starting again.")
-    if positive_first_degree == "N": #there is another no
-        print ("Replace cables and try again.")
-"""
+        if positive_first_degree == "Y":
+            print ("Clean terminals and try starting again.")
+        if positive_first_degree == "N": #there is another no
+            print ("Replace cables and try again.")
+
 #Start on the right side
-    if troubleshoot == " no":
+    if troubleshoot == "N":
         negative_first_degree = raw_input("Does the car make a clicking noise?")
         print(negative_first_degree)
-        if negative_first_degree == " yes":
+        if negative_first_degree == "Y":
             print ("Replace the battery.")
-        if negative_first_degree == " no": #This is a bit tricky
-"""
-
-
-
-
-
+        if negative_first_degree == "N":
+            negative_second_degree = raw_input ("Does the car crank up but fail to start?")
+            print (negative_second_degree)
+            if negative_second_degree == "Y":
+            print ("Check spark plug connection")
 
 diagnose_car()
 
