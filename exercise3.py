@@ -29,15 +29,15 @@ def diagnose_car():
         if negative_first_degree == "Y":
             print ("Replace the battery.")
         if negative_first_degree == "N":
-            negative_second_degree = raw_input("Does the car crank up but fail to start?")
+            negative_second_degree = raw_input("Does the car crank up but fail to start?")#Start of second level
             if negative_second_degree == "Y":
                 print ("Check spark plug connections.")
             if negative_second_degree == "N":
-                negative_third_degree = raw_input("Does the engine start and then die?")
+                negative_third_degree = raw_input("Does the engine start and then die?")#Start of third level
                 if negative_third_degree == "N":
                     print ("Engine is not getting enough fuel. Clean fuel pump.")
                 if negative_third_degree == "Y":
-                    negative_fourth_degree = raw_input("Does your car have fuel injection?")
+                    negative_fourth_degree = raw_input("Does your car have fuel injection?")#Start of fourth level 
                     if negative_fourth_degree == "N":
                         print ("Check to ensure the choke is opening and closing.")
                     if negative_fourth_degree == "Y":
