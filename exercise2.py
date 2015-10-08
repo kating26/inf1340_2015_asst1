@@ -30,24 +30,24 @@ def name_that_shape():
     """
    
 # User inputs the number of sides and returns shapes.
-shape = raw_input("Enter the number of sides for your shape: ")
+    shape = raw_input("Enter the number of sides for your shape: ")
 
-if shape == "3":
-    print ('You have a triangle.')
-elif shape == "4":
-    print ('You have a quadrilateral.')
-elif shape == "5":
-    print ('You have a pentagon.')
-elif shape == "6":
-    print ('You have a hexagon.')
-elif shape == "7":
-    print ('You have a heptagon.')
-elif shape == "8":
-    print ('You have an octagon.')
-elif shape == "9":
-    print ('You have a nonagon.')
-elif shape == "10":
-    print ('You have a decagon.')
-else:
-    print ('Error')
-name_that_shape()
+    if shape == "3":
+        print ('triangle')
+    elif shape == "4":
+        print ('quadrilateral')
+    elif shape == "5":
+        print ('pentagon')
+    elif shape == "6":
+        print ('hexagon')
+    elif shape == "7":
+        print ('heptagon')
+    elif shape == "8":
+        print ('octagon')
+    elif shape == "9":
+        print ('nonagon')
+    elif shape == "10":
+        print ('decagon')
+    else:
+        print ('Error')
+#name_that_shape()
