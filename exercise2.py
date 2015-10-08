@@ -12,8 +12,6 @@ __email__ = "ses@drsusansim.org"
 __copyright__ = "2015 Susan Sim"
 __license__ = "MIT License"
 
-# User inputs the number of sides and returns shapes.
-shape = raw_input("Enter the number of sides for your shape: ")
 
 def name_that_shape():
 
@@ -31,6 +29,8 @@ def name_that_shape():
     message.
     """
    
+# User inputs the number of sides and returns shapes.
+shape = raw_input("Enter the number of sides for your shape: ")
 
 if shape == "3":
     print ('You have a triangle.')
@@ -50,3 +50,4 @@ elif shape == "10":
     print ('You have a decagon.')
 else:
     print ('Error')
+name_that_shape()
