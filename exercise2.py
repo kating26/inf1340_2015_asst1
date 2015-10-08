@@ -20,16 +20,19 @@ def name_that_shape():
     """
     For a given number of sides in a regular polygon, returns the shape name
 
-    Inputs:
+    Inputs: Users enters a number from 3 to 10 (inclusive). Numbers, characters and symbols
+    can be entered as well.
 
-    Expected Outputs:
+    Expected Outputs: The outputs include phrases corresponding to the number of sides the
+    user input from 3 to 10 (inclusive). 3 - triangle, 4 - quadrilateral, 5 - pentagon,
+    6 - hexagon, 7 - heptagon, 8 - octagon, 9 - nonagon, 10 - decagon.
 
-    Errors:
-
+    Errors: Any characters, symbols or numbers outside this range will result in an error
+    message.
     """
    
 
-if shape =="3":
+if shape == "3":
     print ('You have a triangle.')
 elif shape == "4":
     print ('You have a quadrilateral.')
