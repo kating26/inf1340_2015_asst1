@@ -15,36 +15,32 @@ __license__ = "MIT License"
 
 def diagnose_car():
 #Start on the left side
-    troubleshoot = raw_input("Is the car silent when you turn the key (Y/N)? ")
-    if troubleshoot == "Y": #Added a space for aesthetics
-        positive_first_degree = raw_input("Are the battery terminals corroded (Y/N)? ")
+    troubleshoot = raw_input("Is the car silent when you turn the key? ")
+    if troubleshoot == "Y":
+        positive_first_degree = raw_input("Are the battery terminals corroded? ")
         if positive_first_degree == "Y":
             print ("Clean terminals and try starting again.")
-        if positive_first_degree == "N": #there is another no
+        if positive_first_degree == "N":
             print ("Replace cables and try again.")
 
 #Start on the right side
     if troubleshoot == "N":
         negative_first_degree = raw_input("Does the car make a clicking noise?")
-        print(negative_first_degree)
         if negative_first_degree == "Y":
             print ("Replace the battery.")
         if negative_first_degree == "N":
             negative_second_degree = raw_input("Does the car crank up but fail to start?")
-            print (negative_second_degree)
             if negative_second_degree == "Y":
-                print ("Check spark plug connection")
+                print ("Check spark plug connections.")
             if negative_second_degree == "N":
                 negative_third_degree = raw_input("Does the engine start and then die?")
-                print (negative_third_degree)
                 if negative_third_degree == "N":
-                    print ("Error")
+                    print ("Engine is not getting enough fuel. Clean fuel pump.")
                 if negative_third_degree == "Y":
                     negative_fourth_degree = raw_input("Does your car have fuel injection?")
-                    print (negative_fourth_degree)
                     if negative_fourth_degree == "N":
                         print ("Check to ensure the choke is opening and closing.")
                     if negative_fourth_degree == "Y":
-                        print ("Get in for service")
+                        print ("Get it in for service.")
 #diagnose_car()
 
