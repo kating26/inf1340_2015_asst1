@@ -18,7 +18,6 @@ commission = .03
 share_sold = 942.75
 
 
-
 # Calculate initial total cost for shares by subtracting  subtract the stockbroker's 3% commission
 share_cost = stock * bought * commission
 initial_total = stock * bought - share_cost
