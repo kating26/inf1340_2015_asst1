@@ -21,15 +21,14 @@ def name_that_shape():
     Inputs: Users enters a number from 3 to 10 (inclusive). Numbers, characters and symbols
     can be entered as well.
 
-    Expected Outputs: The outputs include phrases corresponding to the number of sides the
-    user input from 3 to 10 (inclusive). 3 - triangle, 4 - quadrilateral, 5 - pentagon,
-    6 - hexagon, 7 - heptagon, 8 - octagon, 9 - nonagon, 10 - decagon.
+    Expected Outputs: The outputs are 3 results in a triangle; 4, a quadrilateral;
+    5, a pentagon; 6, a hexagon; 7, a heptagon; 8, a octagon; 9, a nonagon; and
+    10, a decagon.
 
-    Errors: Any characters, symbols or numbers outside this range will result in an error
+    Errors: Any characters, symbols or numbers outside this range will result in an 'error'
     message.
     """
-   
-# User inputs the number of sides and returns shapes.
+
     shape = raw_input("Enter the number of sides for your shape: ")
 
     if shape == "3":
@@ -50,4 +49,5 @@ def name_that_shape():
         print ('decagon')
     else:
         print ('Error')
-#name_that_shape()
+
+# name_that_shape()
